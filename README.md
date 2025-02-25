@@ -14,8 +14,8 @@ The deployment architecture consists of the following components:
 ### Cloud Deployment:
 - The model was deployed on Azure Machine Learning.
 - The deployment involved:
-- - Registering the model in the Azure ML workspace.
--- Creating an inference configuration with a scoring script (score.py).
+  - Registering the model in the Azure ML workspace.
+  - Creating an inference configuration with a scoring script (score.py).
 
 Deploying the model as a web service using Azure Container Instance (ACI).
 
